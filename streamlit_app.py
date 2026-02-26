@@ -9,7 +9,7 @@ st.header("En este espacio desarrollo mi app.")
 
 st.write("Crear frontend y backend")
 
-image = Image.open("imagen1.jpg")
+image = image.open("imagen1.jpg")
 
 st.image(image, caption='Interfaces Multimodales')
 
