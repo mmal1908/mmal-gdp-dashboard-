@@ -5,6 +5,14 @@ from pathlib import Path
 
 st.title("Esta es mi primera app en la nubeee")
 
+st.header("En este espacio desarrollo mi app.")
+
+st.write("Crear frontend y backend")
+
+image = Image.open("imagen1.jpg")
+
+st.image(image, caption='Interfaces Multimodales')
+
 # Set the title and favicon that appear in the Browser's tab bar.
 st.set_page_config(
     page_title='GDP dashboard',
