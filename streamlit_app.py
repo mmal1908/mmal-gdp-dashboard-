@@ -37,10 +37,10 @@ with col2:
   if modo == 'Visual':
     st.write('La vista es fundamental para tu interfaz')
   
-  if modo == 'Auditiva':
+  if modo == 'Visual':
     st.write('La vista es fundamental para tu interfaz')
   
-  if modo == 'Tacto':
+  if modo == 'Visual':
     st.write('La vista es fundamental para tu interfaz')
 
 st.subheader("Uso de Botones")
