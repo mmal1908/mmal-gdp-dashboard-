@@ -13,3 +13,6 @@ st.write("Crear frontend y backend")
 image = Image.open("imagen1.jpg")
 
 st.image(image, caption='Interfaces Multimodales')
+
+texto = st.text_input('Escribe algo', 'este es el textooo')
+st.write('El texto escrito es', texto)
